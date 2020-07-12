@@ -1,0 +1,172 @@
+---
+title: " "
+---
+
+<style>
+
+body{
+overflow-y: hidden; /* Hide vertical scrollbar */
+overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+/* Colocando plano de fundo na página */
+
+body{
+background-image: url("https://image.freepik.com/fotos-gratis/papel-amassado-branco-para-plano-de-fundo_61607-225.jpg");
+            
+font: normal 11pt Arial;
+color: white;
+text-align: justify;
+}
+
+
+/*Imagem a esquerda*/
+
+div.img1 {
+   float: left;
+   padding: 1px;
+   top: 10px;
+   margin-top: -11px;
+   margin-left: -230px;
+   opacity: 0.7;
+}
+
+/*Imagem centro*/
+
+div.img2 {
+   float: left;
+   padding: 1px;
+   top: 10px;
+   margin-top: -11px;
+   margin-left: -252.5px;
+   opacity: 0.7;
+   width:453px;
+}
+
+/*Imagem direita*/
+
+div.img3 {
+   float: right;
+   padding: 1px;
+   top: 10px;
+   margin-top: -11px;
+   margin-right: -229px;
+   opacity: 0.7;
+   width:445px;
+}
+
+/*Posição do texto*/
+
+div.texto1{
+margin-top: 560px;
+margin-left: -200px;
+font: normal 18pt Goudy Old Style;
+color: white;
+}
+
+/*Posição do texto*/
+
+div.texto2{
+margin-top: 560px;
+margin-left: 270px;
+font: normal 18pt Goudy Old Style;
+color: white;
+}
+
+/*Posição do texto*/
+
+div.texto3{
+margin-top: 560px;
+margin-left: 720px;
+font: normal 18pt Goudy Old Style;
+color: white;
+}
+
+/*Posição do texto*/
+
+div.texto4{
+margin-top: 650px;
+margin-left: -120px;
+font: normal 16pt Goudy Old Style;
+color: black;
+}
+
+/*Posição do texto*/
+
+div.texto5{
+margin-top: 650px;
+margin-left: 200px;
+font: normal 16pt Goudy Old Style;
+color: black;
+}
+
+/*Posição do texto*/
+
+div.texto6{
+margin-top: 650px;
+margin-left: 520px;
+font: normal 16pt Goudy Old Style;
+color: black;
+}
+
+/*Posição do texto*/
+
+div.texto7{
+margin-top: 650px;
+margin-left: 840px;
+font: normal 16pt Goudy Old Style;
+color: black;
+}
+
+
+</style>
+
+<div class="img1">
+
+<a href="#" onclick="alert('Instituição: Defensoria Pública da União                                                                                                                         Período de entrada: 1/2018                                                                                                                                      Período de término: 1/2019                                                                                                                                      Atividades realizadas:                                                                                                                                          . Publicação de indicadores em sites governamentais;                                                                                                            . Modelagem e análise das pesquisas de satisfação aplicadas em todas as unidades de defensorias públicas do país;                                                                                                                        . Construção de mapas usando PhilCarto para confecção de relatórios técnicos;                                                                                   . Extração, tratamento e carregamento (ETL) de dados para construção de indicadores internos');">
+
+  <img height="200" src="https://i.pinimg.com/originals/37/fc/5e/37fc5e6fe31b0caae019b69af5511078.jpg" alt="Snow" style="width:65%; height:610px;";/>
+
+</a>
+
+</div>
+
+
+<div class="img2">
+
+<a href="#" onclick="alert('Instituição: 5ª Vara da justiça federal                                                                                                                           Período de entrada: 6/2019                                                                                                                                      Período de término: 6/2020                                                                                                                                      Atividades realizadas:                                                                                                                                          .	Criação de um sistema automatizado em Shiny para visualização, inclusão e armazenamento de dados relacionados a processos públicos;                                                                                                        . Tratamento e manipulação de processos em bancos de dados.');">
+
+  <img height="200" src="https://i.pinimg.com/736x/f1/26/96/f12696c1384f82aac15345dafe9725b4.jpg" alt="Snow" style="width:100%; height:610px;";/>
+
+</a>
+
+</div>
+
+<div class="img3">
+
+<a href="#" onclick="alert('Instituição: Tribunal de Contas do Distrito Federal                                                                                                              Período de entrada: 1/2019                                                                                                                                      Período de término: Estágio atual                                                                                                                               Atividades realizadas:                                                                                                                                          . Criação de Dashboards interativos para publicação online de indicadores através das ferramentas Power BI e R;                                                                                                                            . Automatização de scripts para otimizar rotinas de Web Scraping em sites de pregões eletrônicos;                                                                                                                                            . Criação de questionário, envio e manipulação de dados para pesquisas de IGov por meio da plataforma LimeSurvey para 52 instituições públicos como Caesb e secretaria da saúde.');">
+
+  <img height="200" src="https://i.pinimg.com/originals/87/48/e6/8748e62241c2e9a8b11f741ee1177b5f.jpg" alt="Snow" style="width:100%; height:610px;";/>
+  
+  </a>
+  
+</div>
+
+<div class="texto1" style='position:absolute;'>
+
+**\# Defensoria Pública da União**
+  
+</div>
+
+<div class="texto2" style='position:absolute;'>
+
+**\# 5ª Vara da Justiça Federal**
+  
+</div>
+
+
+<div class="texto3" style='position:absolute;'>
+
+**\# Tribunal de Contas do Distrito Federal**
+  
+</div>

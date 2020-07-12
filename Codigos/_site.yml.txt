@@ -1,0 +1,35 @@
+name: "YOURNAME"                                # CHANGE HERE 
+output_dir: "."
+navbar:
+  type: inverse
+  title: "<img id=\"logo\" style=\"position:absolute;top:8px;left:25px;width:70px;opacity: 0.6;\" src=\"https://upload.wikimedia.org/wikipedia/commons/1/1c/S%C3%ADmbolo_da_UnB_%28para_fundo_branco%29.png\" />"
+
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+      
+    - text: "About"
+      icon: far fa-id-badge
+      href: about.html
+      
+    - text: "Experiences"
+      icon: fa fa-cogs
+      href: CV.html
+      
+    - text: "Projects"
+      icon: fa fa-wrench
+      href: Pacote.html
+      
+      
+  right:
+    - text: "Contact me"
+      icon: fa-envelope-o
+      href: mailto:fernandocesar320@gmail.com        # CHANGE HERE 
+      
+    - text: "GitHub"
+      icon: fa-github
+      href: https://github.com/FernandoCesar12       # CHANGE HERE 
+
+
+

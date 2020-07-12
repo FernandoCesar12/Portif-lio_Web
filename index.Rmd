@@ -1,0 +1,249 @@
+---
+title: " "
+---
+
+<style>
+
+/* Colocando plano de fundo na página */
+
+body{
+background-image: url("https://image.freepik.com/fotos-gratis/papel-amassado-branco-para-plano-de-fundo_61607-225.jpg");
+            
+font: normal 11pt Arial;
+color: white;
+text-align: justify;
+}
+
+/* Colocando o grid interativo da imagem */
+
+.fixed-content {
+    position: fixed;
+    margin-top: -170px;
+    margin-left: -200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.main {
+  height: 150vh;
+  width: 130vw;
+  position: relative;
+
+}
+.d1 {
+  position: absolute;
+  background-image: url(https://newevolutiondesigns.com/images/freebies/4k-wallpaper-3.jpg);
+  background-size: 2700px 1500px;
+
+  height: 30vh;
+  width: 15vw;
+
+  background-position: 0 50%;
+
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  animation: dd1 10s 1, dd12 10s 1;
+  animation-delay: 4s, 14s;
+}
+.d2 {
+  position: absolute;
+  background-image: url(https://newevolutiondesigns.com/images/freebies/4k-wallpaper-3.jpg);
+  background-size: 2700px 1500px;
+
+  height: 50vh;
+  width: 25vw;
+
+  background-position: -10vw 50%;
+  left: 10vw;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  animation: dd2 10s 2;
+  animation-delay: 4s;
+}
+.d3 {
+  position: absolute;
+  background-image: url(https://newevolutiondesigns.com/images/freebies/4k-wallpaper-3.jpg);
+  background-size: 2700px 1500px;
+  overflow: hidden;
+
+  height: 100vh;
+  width: 40vw;
+  left: 25vw;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  background-position: -35vw 50%;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  animation: dd3 10s 2;
+  animation-delay: 4s;
+}
+.d4 {
+  position: absolute;
+  overflow: hidden;
+  background-image: url(https://newevolutiondesigns.com/images/freebies/4k-wallpaper-3.jpg);
+  background-size: 2700px 1500px;
+
+  height: 80vh;
+  width: 25vw;
+  left: 60vw;
+  background-position: -70vw 50%;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  animation: dd4 10s 2;
+  animation-delay: 4s;
+}
+
+@keyframes dd1 {
+  0% {
+  }
+  50% {
+    width: 95vw;
+  }
+}
+@keyframes dd12 {
+  0% {
+  }
+  50% {
+    background-position: Calc(0vw - 40px) 50%;
+  }
+}
+@keyframes dd2 {
+  0% {
+  }
+  50% {
+    background-position: Calc(-10vw - 40px) 50%;
+  }
+}
+@keyframes dd3 {
+  0% {
+  }
+  50% {
+    background-position: Calc(-35vw - 40px) 50%;
+  }
+}
+@keyframes dd4 {
+  0% {
+  }
+  50% {
+    background-position: Calc(-70vw - 40px) 50%;
+  }
+}
+
+/* Colocando os icones interativos */
+
+.social {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px dashed white;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 40px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.google-plus {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00BFFF;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: #32CD32;
+  color: white;
+}
+
+div.position {
+   float: left;
+   width: 40%;
+   padding: 1px;
+   top: 10px;
+   margin-top: 450px;
+   margin-left: -650px;
+}
+
+/*Título da página*/
+
+div.texto{
+font-family: "Montserrat",sans-serif;
+font-weight:900;
+font-size: 45px;
+line-height: 80%;
+margin-top: -780px;
+margin-left: 50px;
+margin-right: 190px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+background: url("https://i2.wp.com/codigosimples.net/wp-content/uploads/2014/02/cropped-Wallpaper-texture-background-wallpaper-black-wallpapers-textures1.jpg?fit=1260%2C787&ssl=1") 50% 50%;
+background-size: cover;
+-webkit-text-fill-color:transparent;
+-webkit-background-clip:text;
+}
+
+</style>
+
+<div class="fixed-content">
+<div class="main">
+<div class="d1"></div>
+<div class="d2"</div>
+<div class="d3"></div>
+<div class="d4"></div>
+</div>
+</div>
+
+<div class="position">
+
+<div class="social">
+  <a href="#" onclick="alert('Telefone: +55 (61) 99282-9339');" class="link facebook" target="_parent"><span class="fa fa-whatsapp"></span></a>
+  <a href="#" onclick="alert('Skype: fernando_cesar8');" class="link twitter" target="_parent"><span class="fa fa-skype"></span></a>
+  <a href="https://www.linkedin.com/in/fernando-cesar-477ba112b/" class="link google-plus" target="_parent"><span class="fa fa-linkedin"></span></a>
+</div>
+</div>
+
+<div class="texto">
+Estatístico & 
+
+Programador
+</div>

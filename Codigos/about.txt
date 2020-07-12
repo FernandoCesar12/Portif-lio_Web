@@ -1,0 +1,112 @@
+---
+title: " "
+---
+
+<style>
+
+/* Colocando plano de fundo na página */
+
+ body{
+
+/* Colocando a imagem de fundo */
+
+background: white url("https://image.freepik.com/fotos-gratis/papel-amassado-fundo-branco_1232-2082.jpg") no-repeat fixed center;
+            
+font: normal 11pt Arial;
+color: white;
+text-align: justify;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  }
+
+/*Imagens Expandindo*/
+
+svg{
+  background:url('https://scontent.fbsb12-1.fna.fbcdn.net/v/t1.0-9/34385672_1587365598042891_787191188082917376_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeGDQA1R2ymymjX6Q6yILi38J0Ehzxu0mFAnQSHPG7SYUHFUQihMh2ZTxc46WeHU_lTdjM-Nrwfn6GItOhtPzPIE&_nc_ohc=_l-ydu2WxigAX-hg5T-&_nc_ht=scontent.fbsb12-1.fna&oh=2d5ce383069847394fbf98c12892e9ea&oe=5F2BEAFE');
+  background-size:cover;
+  width:80vmin; height:auto;
+  display:block;
+  margin:30vmin auto;
+}
+text{
+  font-size:10px;
+  transition:font-size .4s ease-out;
+  font-weight:900;
+  font-family:arial;
+}
+svg:hover text{
+  transition:font-size .4s ease-in;
+  font-size: 300px;
+}
+
+
+/*Título*/
+
+div.titulo{
+font-family: "Copperplate";
+font-size: 22px;
+color: black;
+margin-top: -700px;
+margin-left: 470px;
+margin-right: 170px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+font-weight: bold;
+}
+
+/*Texto principal*/
+
+div.texto{
+font-family: "Copperplate";
+font-size: 15px;
+color: black;
+margin-top: -650px;
+margin-left: 470px;
+margin-right: 170px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+/*Posição da imagem*/
+
+div.local{
+margin-top: -150px;
+margin-left: -600px;
+}
+
+</style>
+
+<div class="local">
+<svg viewbox="0 0 50 50" width="50" height="50">
+  <defs>
+    <mask id="mask" x="0" y="0" width="100" height="49">
+      <rect x="0.5" y="0.5" width="49" height="49" fill="#fff"/>
+      <text x="20" text-anchor="middle" y="50" dy="0">O</text>
+      <text x="25" id="ltrV" text-anchor="middle" y="50" dy="0">l</text>
+      <text x="30" text-anchor="middle" y="50" dy="0">á</text>
+    </mask>
+  </defs>
+  <rect x="0.5" y="0.5" width="49" height="49" mask="url(#mask)" fill-opacity="1" fill="white"/>
+</svg>
+</div>
+
+<div class="titulo">
+Graduando de estatística e desenvolvedor Web
+</div>
+
+<div class="texto">
+
+  Me chamo Fernando Cesar e atualmente sou aluno de graduação na instituição de ensino superior Unb (Universidade de Brasília) no curso de estatística. Minhas áreas de interesse se destacam principalmente em desenvolvimento de páginas Web e manipulações de dados para aplicações digitais, ou seja, utilizo meu curso atual para desenvolver as habilidades necessárias para compreender o funcionamento da atual estrutura de big data.
+
+  Atualmente me encontro a buscar uma oportunidade de realização de mestrado também pela instituição de ensino UnB, mas voltado à área de Machine Learning e Inteligência artificial.
+
+  Sempre considerei experiências profissionais como algo marcante na vida de uma pessoa, dessa maneira, desde o inicio de minha graduação que realizo atividades externas em empresas e órgãos públicos  com o intuito de auxiliar o desenvolvimento de minhas habilidades, dentre os órgãos mais importantes que estive presente se destacam: Defensoria Pública da União, 5ª Vara da Justiça Federal e Tribunal de Contas do Distrito Federal.
+
+
+  As atividades de desenvolvedor Web são voltadas para estruturação de um conjunto de [layouts](#) simples e interativos para com o público alvo, destacando-se principalmente o interesse pela abordagem Web em sites que evidenciem os resultados realizados em trabalhos estatísticos anteriores.
+
+</div>
